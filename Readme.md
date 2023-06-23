@@ -89,4 +89,9 @@ File Link: [Jenkinsfile-dev](https://github.com/eslamkhaled560/simple-app/blob/d
  
 ![Studio_Project_V11](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/195fed31-d72e-43d4-b486-b4be1a4d8806)
 
+- Check ```~/jenkins_home/workspace``` on ```aws-agent```
+
+![image](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/4af0ca46-4cfa-42b8-b903-c3ba0e290b4d)
+
+
 -----------------------------------------
