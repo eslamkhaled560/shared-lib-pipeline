@@ -31,13 +31,13 @@ The master-slave architecture offers several benefits over using only a master:
 ![1](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/a393f8f5-91e9-460b-bea9-3886dac3f4ba)
 ![2](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/b2c8e32f-6ef7-4c78-97a5-4efffbe04bbe)
 
-- Creating groovy filea on this repo: ```shared-lib-pipeline```
+- Creating groovy files on this repo: ```shared-lib-pipeline```
 
 Filea Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/buildImage.groovy) , [pushImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/pushImage.groovy) , [cleanUp.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/cleanUp.groovy)
 
 ![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/96a9095a-94dd-4bf1-8b43-06c9cfed0978)
 
-- I made ```Jenkinsfile``` changes on the ```test```` brach, not to affect the main brach file used fot the previous lab.
+- I made ```Jenkinsfile``` changes on the ```test``` brach, not to affect the main branch file used fot the previous lab.
 
 File Link: [Jenkinsfile](https://github.com/eslamkhaled560/simple-app/blob/test/Jenkinsfile)
 
