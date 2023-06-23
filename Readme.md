@@ -33,5 +33,22 @@ The master-slave architecture offers several benefits over using only a master:
 
 - Creating groovy filea on this repo: ```shared-lib-pipeline```
 
-File Links: []() , []() , []()
+Filea Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/buildImage.groovy) , [pushImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/pushImage.groovy) , [cleanUp.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/cleanUp.groovy)
+
 ![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/96a9095a-94dd-4bf1-8b43-06c9cfed0978)
+
+- I made ```Jenkinsfile``` changes on the ```test```` brach, not to affect the main brach file used fot the previous lab.
+
+File Link: [Jenkinsfile](https://github.com/eslamkhaled560/simple-app/blob/test/Jenkinsfile)
+
+![4](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/3c8d665e-6802-4c1e-8619-35700d890f38)
+
+- Building ```test``` braanch in ```multibranch-simple-app```
+
+![5](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/691616d7-a707-4aa6-a65f-9503722a6878)
+
+- Console and docker hub output
+
+![Studio_Project_V9](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/f5a32a33-b304-4be4-9780-e055682f2b8a)
+
+-----------------------------------------
