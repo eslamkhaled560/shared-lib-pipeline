@@ -41,7 +41,7 @@ Files Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pi
 
 File Link: [Jenkinsfile-test](https://github.com/eslamkhaled560/simple-app/blob/test/Jenkinsfile)
 
-![4](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/3c8d665e-6802-4c1e-8619-35700d890f38)
+![image](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/d1f89c22-4cf1-4886-8b4b-5387e174e876)
 
 - Building ```test``` branch in ```multibranch-simple-app```
 
