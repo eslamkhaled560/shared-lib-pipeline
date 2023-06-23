@@ -7,3 +7,4 @@ def call() {
     }
     sh "docker push islamdevops/pvt-repo:${BRANCH_NAME}"
     echo "Pushing is successful"
+}
