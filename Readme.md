@@ -24,3 +24,14 @@ The master-slave architecture offers several benefits over using only a master:
 - __Authorization__ answers the question, "What are you allowed to do?". It is the process of granting or denying access rights and permissions to authenticated users based on their roles, privileges, or other attributes.
 
 -----------------------------------------
+## Make jenkins-shared-library and make your jenkinsfile which you used in lab2 to point to this library 
+
+- Configure ```shared-lib``` on Jenkins
+
+![1](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/a393f8f5-91e9-460b-bea9-3886dac3f4ba)
+![2](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/b2c8e32f-6ef7-4c78-97a5-4efffbe04bbe)
+
+- Creating groovy filea on this repo: ```shared-lib-pipeline```
+
+File Links: []() , []() , []()
+![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/96a9095a-94dd-4bf1-8b43-06c9cfed0978)
