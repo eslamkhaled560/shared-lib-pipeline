@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def pushImage() {
+def call() {
     echo "Pushing docker image..."
     withCredentials([usernamePassword(credentialsId: 'docker-hub', usernameVariable: 'USER', passwordVariable: 'PWD')]) {
     sh "echo $PASS | docker login -u $USER --password-stdin"
