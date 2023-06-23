@@ -54,11 +54,11 @@ File Link: [Jenkinsfile-test](https://github.com/eslamkhaled560/simple-app/blob/
 -----------------------------------------
 ## 4- Try to make new slave as container or ec2 server and configure master to use it 
 
-- Connct to ```aws-agent``` instance
+- Connect to ```aws-agent``` instance
 
 ![1](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/e8774b54-344d-4435-9c9c-e31115f323b1)
 
-- Configure __Java, Docker, Git__ on ```aws-agent```m and create __jenkins_home__ directory
+- Configure __Java, Docker, Git__ on ```aws-agent```, and create __jenkins_home__ directory
 
 ![2](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/0cbde0ca-40f5-4ce2-a69b-491474993090)
 
