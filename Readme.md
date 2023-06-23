@@ -52,7 +52,7 @@ File Link: [Jenkinsfile-test](https://github.com/eslamkhaled560/simple-app/blob/
 ![Studio_Project_V9](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/f5a32a33-b304-4be4-9780-e055682f2b8a)
 
 -----------------------------------------
-4- ## Try to make new slave as container or ec2 server and configure master to use it 
+## 4- Try to make new slave as container or ec2 server and configure master to use it 
 
 - Connct to ```aws-agent``` instance
 
