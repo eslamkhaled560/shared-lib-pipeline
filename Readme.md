@@ -37,18 +37,56 @@ Files Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pi
 
 ![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/96a9095a-94dd-4bf1-8b43-06c9cfed0978)
 
-- I made ```Jenkinsfile``` changes on the ```test``` brach, not to affect the main branch file used fot the previous lab.
+- I made ```Jenkinsfile``` changes on the ```test``` branch, not to affect the main branch file used for the previous lab.
 
-File Link: [Jenkinsfile](https://github.com/eslamkhaled560/simple-app/blob/test/Jenkinsfile)
+File Link: [Jenkinsfile-test](https://github.com/eslamkhaled560/simple-app/blob/test/Jenkinsfile)
 
 ![4](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/3c8d665e-6802-4c1e-8619-35700d890f38)
 
-- Building ```test``` braanch in ```multibranch-simple-app```
+- Building ```test``` branch in ```multibranch-simple-app```
 
 ![5](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/691616d7-a707-4aa6-a65f-9503722a6878)
 
 - Console and docker hub output
 
 ![Studio_Project_V9](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/f5a32a33-b304-4be4-9780-e055682f2b8a)
+
+-----------------------------------------
+4- ## Try to make new slave as container or ec2 server and configure master to use it 
+
+- Connct to ```aws-agent``` instance
+
+![1](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/e8774b54-344d-4435-9c9c-e31115f323b1)
+
+- Configure __Java, Docker, Git__ on ```aws-agent```m and create __jenkins_home__ directory
+
+![2](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/0cbde0ca-40f5-4ce2-a69b-491474993090)
+
+- Configure Jenkins-Agent ssh connection
+
+![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/4ce35b7b-47e3-4f37-8673-77cc3175abe6)
+
+- Add ssh credentials to Jenkins
+
+![4](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/fec7e3d6-bdf8-43bb-8d70-6adaa780fd78)
+
+- Configure ```aws-agent``` on Jenkins
+
+![5](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/4daba2c0-4a17-47c4-a6c2-0a340afb19f8)
+![6](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/bd8e0255-0076-47ae-b030-2952fa1ed44d)
+
+- I made ```Jenkinsfile``` changes on the ```dev``` branch, not to affect the main branch file used for the previous lab.
+
+File Link: [Jenkinsfile-dev](https://github.com/eslamkhaled560/simple-app/blob/dev/Jenkinsfile)
+
+![7](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/2e54157c-073a-47ca-a40f-88ef14b62a4b)
+
+- Building ```dev``` branch in ```multibranch-simple-app```
+
+![8](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/5b241550-3971-43ab-a42a-90c76330dd60)
+
+- Console and docker hub output
+ 
+![Studio_Project_V11](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/195fed31-d72e-43d4-b486-b4be1a4d8806)
 
 -----------------------------------------
