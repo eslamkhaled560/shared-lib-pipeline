@@ -33,7 +33,7 @@ The master-slave architecture offers several benefits over using only a master:
 
 - Creating groovy files on this repo: ```shared-lib-pipeline```
 
-Filea Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/buildImage.groovy) , [pushImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/pushImage.groovy) , [cleanUp.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/cleanUp.groovy)
+Files Links: [buildImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/buildImage.groovy) , [pushImage.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/pushImage.groovy) , [cleanUp.groovy](https://github.com/eslamkhaled560/shared-lib-pipeline/blob/main/vars/cleanUp.groovy)
 
 ![3](https://github.com/eslamkhaled560/shared-lib-pipeline/assets/54172897/96a9095a-94dd-4bf1-8b43-06c9cfed0978)
 
